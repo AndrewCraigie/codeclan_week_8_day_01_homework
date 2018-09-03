@@ -21,7 +21,7 @@ Draw a diagram showing the dataflow through the application starting with a form
 
 1. What is responsible for defining the routes of the `games` resource?
 
-  *The routes are defined in the create_router.js file using express methods*
+  *(If by 'games' resource it means the client side 'games' model the...) The routes are defined in the Request file with the get(), post() and delete() methods*
 
 2. What are the the responsibilities of server.js?
 
