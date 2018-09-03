@@ -20,21 +20,30 @@ Draw a diagram showing the dataflow through the application starting with a form
 ### Questions
 
 1. What is responsible for defining the routes of the `games` resource?
+
   *The routes are defined in the create_router.js file using express methods*
+
 2. What are the the responsibilities of server.js?
+
   *server.js imports the required modules for express, the app and the MongoClient.
    It defines the path to be used for public files, configures express, establishes
    the database connection and sets the port to listen on*
+
 3. What are the responsibilities of the `gamesRouter`?
+
   *The gamesRouter is an instance of an express Router. It defines the routes for
    the server using router methods - get, post, delete and put. The code within these
    methods receives requests and sent body objects, performs actions actions on the
    collection object and sends responses to the client*
+
 4. What process does the the client (front-end) use to communicate with the server?
+
   *The client uses http GET, POST, DELETE and PUT methods to communicate to the server
    including, where appropriate JSON strings in the body of the requests and receiving  
    JSON strings in the responses, where appropriate*
+
 5. Which of the games API routes does the front-end application consume (i.e. make requests to)?
+
   *GET - get '/', POST post '/', DELETE delete /:id*
 
 ## Extensions
