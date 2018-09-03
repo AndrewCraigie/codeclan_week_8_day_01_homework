@@ -49,7 +49,10 @@ Draw a diagram showing the dataflow through the application starting with a form
 ## Extensions
 
 1. What are we using the [MongoDB Driver](http://mongodb.github.io/node-mongodb-native/) for?
+
   *The MongoDB Driver acts an an interface between the server-side javascript code and the
    MongoDB database application*
+
 2. Why do we need to use [`ObjectId`](https://mongodb.github.io/node-mongodb-native/api-bson-generated/objectid.html) from the MongoDB driver?
+
  *The ObjectId provides and unique ID to retrieve a specified record, update it or to delete it.*
